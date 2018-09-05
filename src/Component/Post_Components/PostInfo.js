@@ -21,7 +21,7 @@ export class PostInfo extends React.Component {
       <img alt="foto"className="postFoto" src={this.props.postFoto}/>
 
       <p style={{
-          "height" : this.state.height, transition: "ease 0.5s"
+          "height" : this.state.height
         }} className='postText'>{this.props.postText}
       </p>
 
