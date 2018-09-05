@@ -10,7 +10,7 @@ export class PostInfo extends React.Component {
   }
   ReedMore() {
 
-    if (this.state.height == "110px") {
+    if (this.state.height === "110px") {
       this.setState({height: "auto"})
     } else {
       this.setState({height: "110px"})
@@ -18,7 +18,7 @@ export class PostInfo extends React.Component {
   }
   render() {
     return (<div className="postInfo">
-      <img className="postFoto" src={this.props.postFoto}/>
+      <img alt="foto"className="postFoto" src={this.props.postFoto}/>
 
       <p style={{
           "height" : this.state.height
@@ -27,12 +27,12 @@ export class PostInfo extends React.Component {
 
       <span onClick={this.ReedMore}>
         {
-          this.props.postText.length > 415 && this.state.height == "110px"
+          this.props.postText.length > 415 && this.state.height === "110px"
             ? "Reed more"
             : ""
         }
         {
-          this.state.height == "auto"
+          this.state.height === "auto"
             ? "Close"
             : ""
         }

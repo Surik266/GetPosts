@@ -12,24 +12,24 @@ export class Social extends React.Component {
     return (<div className="social">
 
       <div className='share'>
-        <img src={share}/>
+        <img alt="foto"  src={share}/>
         <span>{this.props.share}</span>
       </div>
 
-      <div><img src={like}/>
+      <div><img alt="foto" src={like}/>
         <span>{this.props.like}</span>
       </div>
 
       <div>
-        <img src={dislike}/>
+        <img alt="foto" src={dislike}/>
         <span>{this.props.dislike}</span>
       </div>
 
-      <div><img src={comments}/>
+      <div><img alt="foto" src={comments}/>
         <span>{this.props.comments}</span>
       </div>
 
-      <div><img src={view}/>
+      <div><img alt="foto" src={view}/>
         <span>{this.props.postviews}</span>
       </div>
 
