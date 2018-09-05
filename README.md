@@ -1,5 +1,5 @@
-1.`git clone"https://github.com/Surik266/GetPosts.git"`
-2.`cd GetPosts`
-3.`npm i`
-4.`npm start
+1.`git clone"https://github.com/Surik266/GetPosts.git"`<br/>
+2.`cd GetPosts`<br/>
+3.`npm i`<br/>
+4.`npm start`<br/>
 
