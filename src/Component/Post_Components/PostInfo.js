@@ -4,7 +4,7 @@ export class PostInfo extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      height: "110px"
+      height: "110px",
     }
     this.ReedMore = this.ReedMore.bind(this)
   }
@@ -21,7 +21,7 @@ export class PostInfo extends React.Component {
       <img alt="foto"className="postFoto" src={this.props.postFoto}/>
 
       <p style={{
-          "height" : this.state.height
+          "height" : this.state.height, transition: "ease 0.5s"
         }} className='postText'>{this.props.postText}
       </p>
 
